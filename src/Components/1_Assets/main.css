@@ -1,0 +1,45 @@
+body, html{
+    /* height: 100vh; */
+    /* background-color: #1E1450; */
+    overflow: hidden;
+    background-image: url('./Background.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+html{
+    overflow: hidden;
+}
+
+
+/* @font-face{
+    font-family: myFont;
+    src:url(PilatWide-Light.ttf);
+}
+*{
+    font-family: myFont;
+} */
+
+@font-face{
+    font-family: myFontSpecial;
+    src:url(PilatWide-Bold.ttf);
+}
+
+*, .specialFont{
+    font-family: myFontSpecial;
+}
+
+/* tr:nth-child(odd) {  
+    background-color: #1E1450;
+    color: white;  
+    border: 1px solid white;
+} 
+
+
+tr:nth-child(even) {  
+    background-color: #000000;  
+    color: white;
+    border: 1px solid white;
+}  */
+
+
